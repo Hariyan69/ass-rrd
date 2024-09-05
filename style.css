@@ -1,0 +1,247 @@
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+font-family: "Poppins", sans-serif;
+}
+#Lorem{
+    height: 50px !important;
+    margin-top: 6px !important;
+}
+.img-hero{
+    background-image: url(images/Banner\ Image.png);
+    height: 650px;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+.img-element{
+    position: absolute;
+    top: 695px;
+    right:80px;
+    z-index: 2;
+    background-image: url(images/Banner\ element.png);
+}
+.shape{
+    position: relative;
+    position: absolute;
+    right: 760px;
+    top: 80px;
+    width: 60px;
+    height: 650px;
+    padding: 80px;
+    /* border: 1px solid rebeccapurple; */
+    filter: blur(background-color);
+    background-color: black ;
+    opacity: 0.5;
+    color: white;
+}
+.img-hero h1{
+    font-size: 65px;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  
+}
+.img-hero p{
+    font-size: 22px;
+    color: white;
+    opacity: 10;
+}
+
+.step{
+    background-color: white;
+    margin-top: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.step .buttons{
+    display: flex;
+    justify-content: center;
+}
+.dolor{
+    background-color: rgb(250, 249, 248);
+}
+.dolor h1{
+    font-size: 60px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.sit{
+
+    font-size: 35px !important;
+    font-weight: 100 !important;
+    font-style: normal;
+}
+.dolor h5{
+    font-size: 25px;
+}
+.dolor p{
+    font-size: 18px;
+}
+.dolor li{
+    font-size: 1em;
+    list-style-image: url(images/Icon/tick.png);
+}
+.dolors{
+    align-items: center;
+    background-color: white;
+}
+.buttons{
+   display: flex;
+   flex-direction: row-reverse;
+   gap: 20px;
+   justify-items: start;
+   justify-content: start;
+}
+@media screen and (max-width:600px){
+    nav{
+        overflow: scroll;
+    }
+    
+    .img-hero{
+        /* width: 100%; */
+        background-image: url(images/Mobile-banner.png);
+        height: 650px;
+        background-position: 50% 50%;
+        background-size: cover;
+        margin-top: 20px;
+        position: relative;
+    }
+    .shape{
+        position: relative;
+        position: absolute;
+        top: 0px;
+        right: 1px;
+        width: 100%;
+        height: 52%;
+        padding: 30px;
+        /* border: 1px solid rebeccapurple; */
+        filter: blur(background-color);
+        background-color: black ;
+        opacity: 0.5;
+        color: white;
+        clip-path: polygon(0 0, 100% 0, 100% 100%,0% 90%);
+    }
+    .img-hero h1{
+        font-size: 23px !important;
+        color: white;
+        font-weight: bold;
+    }
+    .img-hero p{
+        font-size: 12px !important;
+        color: white;
+        opacity: 10;
+    }
+    
+    .step{
+        background-color: white;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+    }
+    .step img{
+        /* background-color: white; */
+        /* margin-top: 100px; */
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+    }
+    .step button{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .dolor{
+        background-color: rgb(250, 249, 248);
+        height: 2600px;
+    }
+    .dolor li{
+        font-size: 1em;
+        list-style-image: url(images/Icon/tick.png);
+    }
+    .dolor h1{
+        font-size: 25px;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .dolor h5{
+        font-size: 20px;
+    }
+    .dolor p{
+        padding: 5px;
+    }
+    .dolors{
+        align-items: start;
+        background-color: white;
+        /* border: 1px solid red; */
+       display: flex;
+       flex-direction: row;
+       margin: auto;
+       width: 320px !important;
+       font-size: 18px !important;
+       padding: 10px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .sit{
+
+       font-size: 28px !important;
+       align-content: center !important;
+       text-align: start !important;
+    }
+    #carouselExampleIndicators{
+    background-color: white !important;
+    margin: auto !important;
+    width: 300px !important;
+    height: 300px !important;
+    overflow: hidden !important;
+ }
+    .btne{
+          background-color:black !important;
+          color:white !important;
+          width: 32px !important;
+          height: 32px !important;
+          margin: auto;
+          border-radius: 50px;
+          padding: 5px !important;
+    }
+    #carouselExampleIndicators{
+        width: 250px !important;
+        height: 250px !important;
+        background-color: black;
+    }
+    .carousel-item{
+        margin: auto !important;
+        margin-top: 40px !important;
+        padding: 5px !important;
+    }
+    .carousel-item p{
+       
+        font-size: 16px !important;
+    }
+    .dot{
+        align-items: center !important;
+        margin-left: 80px !important;
+    }
+    .star h1{
+        font-size: 25px !important;
+        padding: 5px;
+    }
+    .ipsum{
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        margin-top: 10px;
+    }
+}
